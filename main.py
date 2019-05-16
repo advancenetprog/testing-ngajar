@@ -8,6 +8,7 @@ import base64
 import os
 import Queue
 from github3 import login
+import numpy as np
 
 trojan_id = "config"
 trojan_config = "%s.json" %(trojan_id)
